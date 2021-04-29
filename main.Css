@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+h1{
+    text-align: center;
+    color:#27ae60;
+    -webkit-text-stroke: 1px green;
+    font-size: 100px;
+    font-style: bold;
+   margin-bottom: .2em;
+}
+
+
+
+.card{
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size:30px;
+        font-family: Balsamiq Sans;
+        width: 300px;        
+       height: 500px;
+    }
+
+img{
+    width:50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+body{
+    background-color:#00a5be ;
+ /*#00a5be*/
+ /*#69C8ECFF*/
+}
+
+.card{
+       border-style: solid;
+       border-color: black;
+       border-width: 2px;
+}
+
+.pagination {
+  font-size: 20px;
+
+}
+
+footer{
+    font-style: bold;
+    color: black;
+    font-family: Balsamiq Sans;
+ 
+}
+
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
